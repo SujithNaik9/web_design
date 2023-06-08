@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       p{
+        display:inline;
+        }
+        #container{
+            height: 250px;
+            width:900px;
+            background-color: blue;
+            display:flex; 
+            /* justify-content:space-between space-evenly,space around, center */
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column-reverse;
+            /* flex-direction :row ,row-reverse,column,column-reverse;*/
+
+        }
+        .Box{
+            height: 200px;
+            width: 280px;
+            background-color:red;
+            display: inline-block;
+        }
+        .Box2
+        {
+            background-color: yellow;
+            position:relative;
+             /* top: 30px;  */
+             /* left:50px;  */
+        }
+        p{
+            font-weight: 100px;
+            color: blue;
+        }
+        .Box3{
+            background-color: chartreuse;
+            position: fixed;
+            top: 10px;
+            left:50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque itaque minima exercitationem! Optio necessitatibus quo iste cumque itaque. Excepturi minus amet impedit ullam et quod quae tempora suscipit odit.
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint ipsa non velit recusandae totam eius reiciendis porro ut ab molestiae blanditiis quisquam voluptatem, dignissimos voluptates consectetur corrupti quo optio alias.</p>
+        <Span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione a eius soluta, voluptatem consectetur alias quos, voluptates quisquam amet eaque tempora laboriosam dolor, porro nemo. Vel quidem minima doloribus corrupti.</Span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsum sed ipsam expedita itaque quibusdam dolorem excepturi et eum quae quis iure veritatis, quidem ducimus est molestias nesciunt. Ducimus, commodi.
+    </div>
+    <div id="container">
+        <div class="Box1 Box">Box1</div>
+        <div class="Box2 Box">Box2</div>
+        <div class="Box3 Box">box3</div>
+    </div>
+    
+</body>
+</html>

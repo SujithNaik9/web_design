@@ -1,0 +1,32 @@
+z-index
+@keyframes
+@import
+overflow properties
+flow properties
+image spirit
+pattern Attribute(form validation)
+Differences betn vertical height and vertical width
+Differences betn px and % percentage
+Dropdowns
+box sizing
+border boxing 
+tag
+
+
+
+important 
+
+for icons refere website:
+    fontosm;
+
+imp
+before cloning any website:
+we should use
+
+<style>
+*{
+ padding:0;
+ margin:0;
+ Box-Sizing Borderbox;
+ }
+ </style>

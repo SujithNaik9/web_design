@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainbox>div{
+            background-color:grey;
+        }
+        #mainbox{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+            grid-gap:10px;
+            grid-auto-rows: minmax(100px,auto);
+        }
+        .box1
+        {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+    <div  class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis distinctio soluta alias rem consectetur, deserunt accusantium aperiam fugit aliquam repellendus optio, qui, minus itaque nobis quae quisquam error ut tenetur!</div>  
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti obcaecati sapiente laudantium odio aperiam cupiditate accusamus exercitationem facilis voluptate. Delectus placeat rem aspernatur exercitationem reprehenderit dolores sequi sapiente maxime id?</div>
+    <div class="box3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eius voluptatibus labore quis fugiat pariatur unde quaerat neque ut autem illum quidem, assumenda, laboriosam corporis sint incidunt dicta, vel at?</div>
+    <div class="box4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus inventore vero id cupiditate ex quo laudantium doloribus architecto voluptate sunt reprehenderit voluptatem vel, porro non quos nostrum harum laboriosam beatae?</div>
+
+
+    </div>
+</body>
+</html>

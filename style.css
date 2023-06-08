@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+span,p{
+    border: 1px solid red;
+}
+div p{
+    font-family: sans-serif;
+    color: blueviolet;
+}
+div>p{
+font-weight: 100;
+}
+div+h1{
+    color: aquamarine;
+}
+div~p
+{
+    text-decoration:underline dotted
+
+}
