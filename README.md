@@ -1,2 +1,2 @@
 # web_design
-Here you find my some web page design
+"Here, you can find some of my web designs."
